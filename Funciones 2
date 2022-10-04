@@ -1,0 +1,6 @@
+catetoA = int(input("ingrese el primer dato:"))
+catetoB = int(input("ingrese el segundo dato:"))
+def cateto(catetoA,catetoB):
+    metodo=catetoA**2+catetoB**2
+    return metodo
+print("el resultado del AB es",cateto(catetoA,catetoB))
