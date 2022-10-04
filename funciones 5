@@ -1,0 +1,8 @@
+segundos=int(input("ingrese la cantidad de segundo:"))
+def equivalente():
+    hora=segundos/3600
+    minutos=segundos/60
+    print("su equivalente de segundos a horas son:",hora)
+    print("su equivalente de segundos a minutos es:",minutos)
+    print("su equivalente de segundos es ",segundos)
+print(equivalente())
