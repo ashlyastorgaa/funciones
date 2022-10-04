@@ -1,0 +1,5 @@
+numero=int(input("ingrese el dato:"))
+numero1=int(input("ingrese el dato:"))
+def media():
+    return (numero + numero1 / 2)
+print("la media es",media())
