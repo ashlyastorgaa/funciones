@@ -1,0 +1,11 @@
+numero1=int(input("ingrese el primer numero:"))
+numero2=int(input("ingrese el segundo numero:"))
+def cociente():
+    divicion=numero1/numero2
+    resta1=divicion-numero1
+    resta2=divicion-numero2
+    print("el resultado menos el primer dato es", resta1)
+    print("el resultado menos el segundo dato es", resta2)
+    return divicion
+
+print("el cociente es", cociente())
