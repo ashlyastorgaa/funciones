@@ -1,0 +1,4 @@
+def media(numero,numero1):
+ print("ingrese datos")
+ return(numero+numero1/2)
+print("la media es",media(2,3))
